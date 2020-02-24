@@ -1,0 +1,12 @@
+1. Definição
+
+2. Onde encontra
+   2.1. Linguagens de programação
+   2.2. Editores de Texto
+   2.3. IDEs
+   2.4. Ferramentas de linha de comando
+
+3. Linguagens vs REGEX (Sabores)
+   3.1. Cap 2 - Como executar em algumas linguages... Java, Ruby, Python, Go e 35...
+   3.2. O curso será em 35 linguagens, mas explicado em JS
+   

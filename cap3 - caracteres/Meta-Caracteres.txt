@@ -1,0 +1,21 @@
+REPRESENTANTES
+.  -  Ponto -  Um caractere qualquer
+[] -  Conjunto -  Conjunto de caracteres permitidos
+[^]   - Conjunto negado -  Conjunto de caracteres proibidos
+
+QUANTIFICADORES
+?  -  Opcional -  Zero ou um
+*  -  Asterisco   -  Zero ou mais
++  -  Mais  -  Um ou mais
+{n, m}   - Chaves -  De n té m
+
+ÂNCORAS
+^  -  Circunflexo -  Inicio da linha
+$  -  Cifrão   -  Fim de linha
+\b -  Borda -  Inicio ou o fim de uma palavra
+
+OUTROS
+\  -  Escape   -  Uso de metacaracteres como literal
+|  -  Ou -  Operação de ou
+( )   -  Grupo -  Defini um grupo
+\1...\9  -  Retrovisor  -  Resgata grupos já definidos
