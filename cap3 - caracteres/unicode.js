@@ -13,5 +13,5 @@
 
 // https://unicode-table.com/pt/
 
-const texto = 'aʬc௵d'
+const texto = 'aʬc௵daʬc௵daʬc௵d'
 console.log(texto.match(/\u02ac|\u0bf5/g))
