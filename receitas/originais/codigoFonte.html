@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Código Fonte</title>
+
+    <style>
+      body {
+        background: #202020;
+        color: #f1f1f1;
+      }
+      code {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Código Fonte</h1>
+
+    <pre>
+      <code>
+        
+        const altura = 1.71;
+        const peso = 72;
+        
+        /*
+          Cálculo de IMC
+          > Indíce de massa corporal
+        */
+        
+        function calcularImc(altura, peso) {
+          // faz o calculo
+          const imc = peso / (altura * altura);
+          
+          if(imc >= 20 && imc < 23) {
+            return "Seu imc é ideal";
+          }
+          else if(imc >= 23) {
+            return "Seu imc está acima do ideal";
+          }
+          else if(imc < 20) {
+            return "Seu imc está abaixo do ideal";
+          }
+        };
+        
+        calcularImc(altura, peso);
+
+      </code>
+    </pre>
+  </body>
+</html>

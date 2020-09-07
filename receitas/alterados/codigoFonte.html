@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Código Fonte</title>
+
+    <style>
+      body {
+        background: #202020;
+        color: #f1f1f1;
+      }
+      code {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Código Fonte</h1>
+
+    <pre>
+      <code>
+        
+        <span style="color: #429669;"><b>const</b></span> altura = <span style="color: #3ade76;"><b>1.71</b></span>;
+        <span style="color: #429669;"><b>const</b></span> peso = <span style="color: #3ade76;"><b>72</b></span>;
+        
+        <span style="color: #6b6b6b;"><b>/*
+          Cálculo de IMC
+          > Indíce de massa corporal
+        */</b></span>
+        
+        <span style="color: #6e4296;"><b>function</b></span> <span style="color: #e39b49;"><b>calcularImc</b></span>(altura, peso) {
+          <span style="color: #6b6b6b;"><b>// faz o calculo
+</b></span>          <span style="color: #429669;"><b>const</b></span> imc = peso / (altura * altura);
+          
+          <span style="color: #6e4296;"><b>if</b></span>(imc >= <span style="color: #3ade76;"><b>20</b></span> && imc < <span style="color: #3ade76;"><b>23</b></span>) {
+            <span style="color: #6e4296;"><b>return</b></span> <span style="color: #5d6796;"><b>"Seu imc é ideal"</b></span>;
+          }
+          <span style="color: #6e4296;"><b>else</b></span> <span style="color: #6e4296;"><b>if</b></span>(imc >= <span style="color: #3ade76;"><b>23</b></span>) {
+            <span style="color: #6e4296;"><b>return</b></span> <span style="color: #5d6796;"><b>"Seu imc está acima do ideal"</b></span>;
+          }
+          <span style="color: #6e4296;"><b>else</b></span> <span style="color: #6e4296;"><b>if</b></span>(imc < <span style="color: #3ade76;"><b>20</b></span>) {
+            <span style="color: #6e4296;"><b>return</b></span> <span style="color: #5d6796;"><b>"Seu imc está abaixo do ideal"</b></span>;
+          }
+        };
+        
+        <span style="color: #e39b49;"><b>calcularImc</b></span>(altura, peso);
+
+      </code>
+    </pre>
+  </body>
+</html>
